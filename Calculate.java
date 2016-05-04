@@ -8,7 +8,7 @@ public class Calculate
 System.out.println("Calculate...");
 Scanner reader = new Scanner(System.in);
 
-//операции с числами  типа Integer 
+// Integer 
        
         System.out.println("Enter int nambers");
         System.out.print("first = ");
@@ -25,7 +25,7 @@ Scanner reader = new Scanner(System.in);
         System.out.println("RaznoctInt = "+ Raznoct);
         System.out.println("KvadratInt First= "+First*First+", KvadratInt Second= "+Second*Second);
          
-//операции с числами  типа Double
+// Double
         
         System.out.println("Enter Double nambers");
         System.out.print("first = ");
@@ -42,7 +42,7 @@ Scanner reader = new Scanner(System.in);
         System.out.println("RaznoctDouble = "+ Raznoct2);
         System.out.println("KvadratDouble First= "+First2*First2+", KvadratDouble Second= "+Second2*Second2);
 
-//операции с числами  типа Long
+// Long
 
         System.out.println("Enter Long nambers");
         System.out.print("first = ");
@@ -59,7 +59,7 @@ Scanner reader = new Scanner(System.in);
         System.out.println("Raznoctlong = "+ Raznoct3);
         System.out.println("KvadratLong First= "+First3*First3+", KvadratLong Second= "+Second3*Second3);
 
-//операции с числами  типа short
+// short
 
         System.out.println("Enter Short nambers");
         System.out.print("first = ");
@@ -76,7 +76,8 @@ Scanner reader = new Scanner(System.in);
         System.out.println("RaznoctShort = "+ Raznoct4);
         System.out.println("KvadratShort First= "+First4*First4+", KvadratShort Second= "+Second4*Second4);
 
-//операции с числами  типа float
+// float
+
         System.out.print("first = ");
         float  First5 =reader.nextFloat();
         System.out.print("second = ");
